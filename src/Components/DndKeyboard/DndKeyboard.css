@@ -1,0 +1,44 @@
+.DndStyle{
+  background-color: rgba(200,245,255,0.7) ;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  padding-top:0.5vh;
+  padding-bottom: 0.5vh;
+  display: flex;
+  border: 0.5vh  rgba(30,70,110,0.9);
+  border-style :solid;
+  animation-name: keyboardAnimation;
+  animation-duration: 2s;
+}
+
+@keyframes keyboardAnimation{
+	from {
+		bottom:-8vh;
+	}
+}
+
+.Key{
+	border: 0.1vh solid lightgrey;
+	width:7vh;
+	height:7vh;
+	background-color: rgba(10,50,90,0.9);
+	font-size: 2.5vh;
+	color: lightgrey;
+	text-align: center;
+	border-radius: 0.5vh;
+	margin-left:auto ;
+	margin-right: auto ;
+	transition-duration: 0.2s;
+	
+}
+
+.Key:hover{
+	background-color: rgba(70,150,170,0.9);
+	cursor:pointer;
+}
+
+.Key:active{
+	background-color: rgba(70,150,170,0.9);
+	border: 0.5vh solid lightgrey;
+}

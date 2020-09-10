@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  background-color: rgba(245, 244, 240);
+  height: 100vh;
+}
+
+.back-grid{
+	position: absolute;
+	background-color: red;
+	height: 100px;
+	width: 100px;
+	z-index:0;
+	top: 200px;
+	left: 800px;
+}
+
+
+
+
+
+
+
+

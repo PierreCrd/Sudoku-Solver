@@ -1,0 +1,156 @@
+.bar{
+	height:8vh;
+	width:100%;
+	background-color: rgba(20,50,80,0.9);
+	color:rgb(240,240,240);
+	font-size: 5vh;
+	font-family: verdana
+}
+
+.secondPartBar{
+	display: flex;
+	margin: auto;
+	height:5vh;
+	width:75%;
+	color:rgb(240,240,240);
+	border-radius: 0px 0px 10px 10px;
+}
+
+.style-btn-group {
+	display:flex;
+	height:5vh;
+	width:60vw;
+	border-radius: 0px 0px 30px 30px;
+}
+
+.buttonStyle, .solve-button{
+	background-color: rgba(20,50,80,0.9);
+	border: 1.5px  solid black;
+	height:5vh;
+	width:20vw;
+	color: rgba(200,245,255,0.9);
+	font-size: 2vh ;
+	font-family: verdana;
+	padding: 0.8vh;
+}
+
+.buttonStyle{
+	transition: width 0.2s, background-color 0.5s ,color 0.5s, border 0.2s, font-size 0.2s
+}
+
+.solve-button{
+	transition: width 0.2s, background-color 0.5s ,color 0.5s, border 0.6s, font-size 0.2s;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes my-red-animation {
+  0% {
+    border: solid 0.25vh rgba(245,120,160,0.15);
+    color: rgba(245,120,160,0.15);
+  }
+  50% {
+    border: solid 0.25vh rgba(245,120,160,1);
+    color: rgba(245,120,160,1);
+  }
+  100% {
+    border: solid 0.25vh rgba(245,120,160,0.15);
+    color: rgba(245,120,160,0.15);
+  }
+}
+
+@keyframes my-green-animation{
+  0% {
+    border: solid 3px rgba(105,225,185,0.15);
+    color:rgba(105,225,185,0.15);
+  }
+  50% {
+    border: solid 3px rgba(105,225,185,1);
+    color:rgba(105,225,185,1);
+  }
+  100% {
+    border: solid 3px rgba(105,225,185,0.15);
+    color:rgba(105,225,185,0.15);
+  }
+}
+
+@keyframes my-orange-animation {
+  0% {
+    border: solid 0.25vh rgb(255,165,40,0.15);
+    color: rgb(255,165,40,0.15);
+  }
+  50% {
+    border: solid 0.25vh rgb(255,165,40,1);
+    color: rgb(255,165,40,1);
+  }
+  100% {
+    border: solid 0.25vh rgb(255,165,40,0.15);
+    color: rgb(255,165,40,0.15);
+  }
+}
+
+@keyframes my-blue-animation {
+  0% {
+    border: solid 0.25vh rgb(120,220,255,0.1);
+    color: rgb(120,220,255,0.1);
+  }
+  50% {
+    border: solid 0.25vh rgb(120,220,255,1);
+    color: rgb(120,220,255,1);
+  }
+  100% {
+    border: solid 0.25vh rgb(120,220,255,0.1);
+    color: rgb(120,220,255,0.1);
+  }
+}
+
+
+
+
+.solve-button:hover{
+	background-color: rgba(20,50,80,0.9);
+	width: 22vw;
+	color: rgba(20,50,80,1);
+	cursor: pointer;
+	border: 0.4vh solid rgba(60,110,150,0.9);
+	font-size: 1.6vh ;
+	animation-duration: 1s;
+}
+
+.buttonStyle:hover {
+	background-color: rgba(150,230,250);
+	width: 22vw;
+	color: rgba(20,50,80,1);
+	cursor: pointer;
+	border: 0.4vh solid rgba(60,110,150,0.9);
+	font-size: 1.6vh ;
+}
+
+.buttonStyle:active{
+	background-color: rgba(20,50,80,0.9);
+	color: rgba(140,200,220,1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

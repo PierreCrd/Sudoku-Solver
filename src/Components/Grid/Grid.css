@@ -1,0 +1,36 @@
+element {
+	-animation-color: rgb(245, 244, 240);
+}
+
+.grid{
+	z-index:1;
+	background-color:rgba(60,110,150,1);
+	display:inline-block;
+	animation-name: border-animation;
+	animation-duration: 2s;
+}
+
+
+.grid-container{
+	display: inline-grid;
+	grid-template-columns: auto auto auto ;
+	border: 0.3vh solid rgba(60,110,150,1);
+	animation-name: border-animation;
+	animation-duration: 2s;
+	z-index:2;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.original-grid-container{
+	display: inline-grid;
+	grid-template-columns: auto auto auto ;
+	border: 0.4vh solid rgba(60,110,150,0.8);
+	animation-name: border-animation;
+	animation-duration: 2s;
+}
+
+@keyframes border-animation{
+	from {border: solid rgb(245, 244, 240)}
+}
+

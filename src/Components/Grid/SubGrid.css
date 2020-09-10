@@ -1,0 +1,57 @@
+element {
+	--animation-color: rgb(245, 244, 240);
+}
+
+@keyframes gridAnim{
+	from {
+		width:7vw;
+		height:7vh;
+		background-color: rgb(245, 244, 240);
+		border: 0.1vh solid rgb(245, 244, 240);
+		color: rgb(245, 244, 240);
+		opacity:0.1;
+	}
+}
+
+.grid-item, .filled-grid-item{
+	border: 0.01vh solid rgba(60,110,150,1);
+	width: 7vh;
+	height: 7vh;
+	max-width:7vw;
+	max-height: 8vw;
+	background-color: rgba(200,245,255,1);
+	font-family: Arial;
+	animation-name: gridAnim;
+	animation-duration: 2s;
+	color: lightpink;
+	transition-duration: 0.12s;
+	display: grid;
+	grid-template-columns: 2vh 2vh 2vh  ;
+	grid-template-rows: 2vh 2vh 2vh  ;
+
+}
+
+
+.certain-number{
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 100;
+}
+
+.uncertain-number{
+	font-size: 1.5vh;
+	color: rgba(120, 200, 170, 1);
+}
+
+.filled-grid-item:hover {
+	background-color: rgb(225,225,255);
+	
+	cursor:pointer;
+}
+
+.filled-grid-item:active {
+	background-color : rgba(150,250,230);
+	border : 0.8vh solid rgba(60,150,140,0.8);
+	font-size: 2vh;
+	color: rgba(150,250,230);
+}

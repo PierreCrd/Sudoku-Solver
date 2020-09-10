@@ -1,0 +1,42 @@
+.trashContainer{
+	position: absolute;
+	right: 0.1vw;
+	min-width: 10vw;
+	min-height: 10vh;
+	width: 15vw;
+	height: 20vh;
+	border: 3px solid rgba(105,225,185,1);
+	background-color: rgba(205,255,215,0.7);
+	border-radius: 10px 10px 10px 10px;
+	resize: both;
+	overflow: auto;
+	color: rgba(120,200,125);
+	cursor: grab;
+	z-index:3;
+	animation-name: trashAnimation;
+	animation-duration: 2s;
+}
+
+@keyframes trashAnimation{
+	from {
+		
+		opacity:0;
+		
+	}
+}
+
+
+
+
+.dragSection{
+	height: 3vw;
+	width: auto;
+	background-color: rgba(250,250,250,0.8);
+	text-align: center;
+	border: 0px rgba(105,225,185,1); 
+	border-style: none none solid none;
+	color: rgba(120,200,125);
+}
+
+
+//red: rgba(255,205,215,0.7)
