@@ -143,7 +143,7 @@ export default class ToolBar extends Component {
 		return (
 			<div>
 				<div className = "bar">
-					Sudoku Solver
+					Sudoku Solvere
 				</div>
 				<div className = "secondPartBar">
 					<DropdownButton setSolver = {this.setSolver}> Algorithms </DropdownButton>
