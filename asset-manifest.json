@@ -1,25 +1,35 @@
 {
   "files": {
-    "main.css": "/Sudoku-Solver/static/css/main.3b454b3e.chunk.css",
-    "main.js": "/Sudoku-Solver/static/js/main.1ede2f14.chunk.js",
-    "main.js.map": "/Sudoku-Solver/static/js/main.1ede2f14.chunk.js.map",
+    "main.css": "/Sudoku-Solver/static/css/main.ec2718e9.chunk.css",
+    "main.js": "/Sudoku-Solver/static/js/main.d01aab2e.chunk.js",
+    "main.js.map": "/Sudoku-Solver/static/js/main.d01aab2e.chunk.js.map",
     "runtime-main.js": "/Sudoku-Solver/static/js/runtime-main.2c1c09e3.js",
     "runtime-main.js.map": "/Sudoku-Solver/static/js/runtime-main.2c1c09e3.js.map",
     "static/css/2.11829350.chunk.css": "/Sudoku-Solver/static/css/2.11829350.chunk.css",
-    "static/js/2.a0873241.chunk.js": "/Sudoku-Solver/static/js/2.a0873241.chunk.js",
-    "static/js/2.a0873241.chunk.js.map": "/Sudoku-Solver/static/js/2.a0873241.chunk.js.map",
+    "static/js/2.837d8fc9.chunk.js": "/Sudoku-Solver/static/js/2.837d8fc9.chunk.js",
+    "static/js/2.837d8fc9.chunk.js.map": "/Sudoku-Solver/static/js/2.837d8fc9.chunk.js.map",
     "index.html": "/Sudoku-Solver/index.html",
-    "precache-manifest.8dbc5caee67792c1d95b2552e99f9d67.js": "/Sudoku-Solver/precache-manifest.8dbc5caee67792c1d95b2552e99f9d67.js",
+    "precache-manifest.0c45651352f6ea48db8b6458773d727c.js": "/Sudoku-Solver/precache-manifest.0c45651352f6ea48db8b6458773d727c.js",
     "service-worker.js": "/Sudoku-Solver/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/Sudoku-Solver/static/css/2.11829350.chunk.css.map",
-    "static/css/main.3b454b3e.chunk.css.map": "/Sudoku-Solver/static/css/main.3b454b3e.chunk.css.map",
-    "static/js/2.a0873241.chunk.js.LICENSE.txt": "/Sudoku-Solver/static/js/2.a0873241.chunk.js.LICENSE.txt"
+    "static/css/main.ec2718e9.chunk.css.map": "/Sudoku-Solver/static/css/main.ec2718e9.chunk.css.map",
+    "static/js/2.837d8fc9.chunk.js.LICENSE.txt": "/Sudoku-Solver/static/js/2.837d8fc9.chunk.js.LICENSE.txt",
+    "static/media/PickAgorithms.png": "/Sudoku-Solver/static/media/PickAgorithms.8318eb82.png",
+    "static/media/SudokuLogo.png": "/Sudoku-Solver/static/media/SudokuLogo.3550b4cc.png",
+    "static/media/deleteGif.gif": "/Sudoku-Solver/static/media/deleteGif.af27dca8.gif",
+    "static/media/disjointChainEx.png": "/Sudoku-Solver/static/media/disjointChainEx.ad9fc88e.png",
+    "static/media/disjointChainSolved.png": "/Sudoku-Solver/static/media/disjointChainSolved.5c7cc3bc.png",
+    "static/media/loneNumberEx.png": "/Sudoku-Solver/static/media/loneNumberEx.d0c32cdc.png",
+    "static/media/mySudokuGif.gif": "/Sudoku-Solver/static/media/mySudokuGif.46d3d281.gif",
+    "static/media/nakedSubsetEx.png": "/Sudoku-Solver/static/media/nakedSubsetEx.461ed4b6.png",
+    "static/media/nakedSubsetSolved.png": "/Sudoku-Solver/static/media/nakedSubsetSolved.88717993.png",
+    "static/media/navBar.png": "/Sudoku-Solver/static/media/navBar.33564dce.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2c1c09e3.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.a0873241.chunk.js",
-    "static/css/main.3b454b3e.chunk.css",
-    "static/js/main.1ede2f14.chunk.js"
+    "static/js/2.837d8fc9.chunk.js",
+    "static/css/main.ec2718e9.chunk.css",
+    "static/js/main.d01aab2e.chunk.js"
   ]
 }
